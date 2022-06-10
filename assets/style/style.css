@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    width: 20vw;
+    height: 40vw;
+    background-color: #e4ad45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    border: solid 2px #c78b25;
+}
+
+#ukelele-img {
+    width: 15vw;
+        
+}
+
+.div-info {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.list-info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5vh;
+
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    gap: 4vw;
+    
+}
+
+#input-1, #input-2 {
+    border: solid 2px #801e0d;
+}
+
+#card-button {
+    width: 7vw;
+    height: 4vh;
+    background-color: #f1f1f1;
+    border: solid 2px #c78b25;
+    border-radius: 10%;
+}
+
+#color {
+    width: 1.5em;
+    height: 1.5em;    
+    border-radius: 50%;
+}
+

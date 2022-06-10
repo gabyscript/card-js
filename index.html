@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Tarjeta de producto</title>
+</head>
+<body>
+    <div class="card">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_951152-MLC49062764792_022022-O.webp" alt="" id="ukelele-img">
+        <h4 class="product-name">Ukelele Soprano</h4>
+        <input id="input-1" type="number" name="cantidad-de-productos" placeholder="Ingrese cantidad de productos">
+        <input id="input-2" type="text" name="color-del-producto" placeholder="Ingrese color del producto">
+        <h4 class="product-price">Precio por unidad: 59.990</h4>
+        <button id="card-button"> Calcular total</button>
+        
+    </div>
+    <div class="div-info">
+        <ul class="list-info">
+            <li class="info">Cantidad de productos: <span id="cantidad"></span></li>
+            <li class="info">Colores elegidos: <div id="color"></div></li>
+            <li class="info">Total: <span id="total"></span></li>
+        </ul>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
